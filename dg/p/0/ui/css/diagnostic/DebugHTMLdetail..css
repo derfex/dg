@@ -1,0 +1,31 @@
+/* Debug HTML / отладка HTML / ver150901
+///////////////////////////////////////////////////////////////////////////// */
+
+/* Выявление устаревших тегов
+----------------------------------------------------------------------------- */
+.dg-DebugHTML basefont,.dg-DebugHTML big,.dg-DebugHTML center,.dg-DebugHTML font,.dg-DebugHTML strike,.dg-DebugHTML tt,
+.dg-DebugHTML frame,.dg-DebugHTML frameset,.dg-DebugHTML noframes,
+.dg-DebugHTML acronym,.dg-DebugHTML applet,.dg-DebugHTML isindex{
+    outline: 5px solid red!important;
+}
+
+
+
+/* Выявление ссылок без href или href=""
+----------------------------------------------------------------------------- */
+.dg-DebugHTML a{}
+
+
+
+
+/* Выявление изображений без src, alt или alt=""
+----------------------------------------------------------------------------- */
+.dg-DebugHTML img{}
+
+
+
+
+
+/* Выявление любых тегов с пустыми атрибутами
+----------------------------------------------------------------------------- */
+.dg-DebugHTML *{}
